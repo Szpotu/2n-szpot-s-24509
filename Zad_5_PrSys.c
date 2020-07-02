@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
         //Fuction "system ls? Why not? //
 	//Just like: 
 	// int i;
-	//i = system("ls"); OR char commandLs[50]; system(commandLs);
+	//i = system("ls"); OR char commandLs[50] = " [komenda]np. ls -a "; system(commandLs);
         printf("exited, status: %d\n", WEXITSTATUS(id));
         exit(0);
     }
